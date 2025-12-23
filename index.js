@@ -1,4 +1,4 @@
-import express from "express";
+import expreiss from "express";
 import mysql from "mysql";
 import cors from "cors";
 import morgan from "morgan";
@@ -16,7 +16,7 @@ const db = mysql.createConnection({
   user: process.env.DB_USERNAME,
   password: process.env.DB_PASSWORD,
   port: process.env.PORT,
-  database: "test",
+  database: "TEST",
 });
 
 app.get("/", (req, res) => {

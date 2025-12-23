@@ -1,4 +1,4 @@
-import express from "express";
+iimport express from "express";
 import mysql from "mysql";
 import cors from "cors";
 import morgan from "morgan";
@@ -20,7 +20,7 @@ const db = mysql.createConnection({
 });
 
 app.get("/", (req, res) => {
-  res.json("hello");
+  res.json("hai");
 });
 
 app.get("/books", (req, res) => {
